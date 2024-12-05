@@ -187,3 +187,91 @@ a, a:hover{
     margin: 0px 0px 10px 0px;
     color: #161C2D;
 }
+.services{
+    width: 100%;
+    padding: 80px 0px;
+    background: #F4F7FA;
+}
+.service-title{
+    width: 100%;
+    padding: 0px 0px 60px;
+    text-align: center;
+}
+.service-title h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin: 0px 0px 10px 0px;
+    color: #161C2D;
+}
+.service-title p{
+    width: 45%;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin: 0px auto;
+    color: #161C2D;
+}
+.service-box{
+    width: 100%;
+    padding: 0px 20px;
+}
+.service-box h4{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin: 0px 0px 20px 0px;
+    text-transform: capitalize;
+    color: #161C2D;
+}
+.service-box .img-fluid{
+    max-width: 100%;
+    border-radius: 20px;
+    margin: 0px 0px 30px;
+}
+.service-box p{
+    width: 90%;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin: 0px 0px 20px 0px;
+    color: #161C2D;
+}
+.service-box .success-btn{
+    padding: 0;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #473BF0;
+    transition: .5s ease-in-out;
+}
+.service-box .success-btn .fa{
+    margin: 0px 0px 0px 20px;
+}
+.service-box .success-btn:hover, .service-box .success-btn:focus{
+    color: #161C2D;
+}
+.about-us{
+    width: 100%;
+    padding: 80px 0px 0px;
+}
+.about-titile{
+    width: 100%;
+}
+.about-titile h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin: 0px 0px 0px 0px;
+    text-transform: capitalize;
+    color: #161C2D;
+}
+.about-titile p{
+    width: 90%;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin: 0px 0px 0px 0px;
+    color: #161C2D;
+}
