@@ -128,3 +128,62 @@ a, a:hover{
     padding: 0px;
     background: #000;
 }
+.success{
+    width: 100%;
+    padding: 80px 0px;
+}
+.success-inner{
+    width: 100%;
+    padding: 50px 0px 0px;
+}
+.success-inner h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.7em;
+    margin: 0px 0px 20px 0px;
+    color: #161C2D;
+}
+.success-inner p{
+    width: 80%;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin: 0px 0px 20px 0px;
+    color: #161C2D;
+}
+.success-inner .btn-info{
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    background: #473BF0;
+    border: 1px solid #473BF0;
+    text-transform: capitalize;
+    transition: .5s ease-in-out;
+}
+.success-inner .btn-info:hover, .success-inner .btn-info:focus{
+    color: #473BF0;
+    background: transparent;
+    border: 1px solid #473BF0;
+}
+.success-item{
+    width: 100%;
+    margin: 10px 0px 0px;
+}
+.success-item h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.7em;
+    margin: 0px 0px 10px 0px;
+    color: #161C2D;
+}
+.success-item p{
+    width: 80%;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin: 0px 0px 10px 0px;
+    color: #161C2D;
+}
