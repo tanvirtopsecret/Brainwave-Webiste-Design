@@ -1,4 +1,271 @@
 /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px) {
+  
+    /* CSS Start Here */
+    /* ==========================
+        ** Navber Toggler Start **
+    ============================= */
+    .header .navbar-toggler{
+        border: 1px solid #473BF0;
+        border-radius: 3px;
+    }
+    .header .navbar-toggler:focus{
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 10px #473BF0;
+        background: #473BF0;
+    }
+    .header .navbar-toggler .fa{
+        color: #473BF0;
+        font-size: 30px;
+    }
+    .header .navbar-toggler:focus .fa{
+        color: #fff;
+    }
+    /* ==========================
+        ** Header Menu Start **
+    ============================= */
+    .header .navbar .navbar-nav .nav-item .nav-link{
+        margin: 0px;
+        font-size: 13px;
+    }
+    .header .navbar-nav .nav-item .btn-info{
+        margin: 10px 0px 0px;
+        font-size: 13px;
+    }
+    /* ==========================
+        ** Banner Start **
+    ============================= */
+    .banner{
+        padding: 35px 0px 0px;
+    }
+    .banner-inner{
+        padding: 10px 0px 35px;
+    }
+    .banner-inner h1{
+        font-size: 30px;
+        line-height: 1.3em;
+        margin: 0px 0px 10px 0px;
+    }
+    .banner-inner p{
+        width: 90%;
+        margin: 0px 0px 10px 0px;
+        font-size: 13px;
+    }
+    .banner-inner .btn-info{
+        font-size: 13px;
+        margin: 5px 0px 0px;
+    }
+    .banner-inner .pop-video{
+        font-size: 10px;
+        margin: 10px 0px 0px;
+    }
+    /* ==========================
+        ** Alert Start **
+    ============================= */
+    .alert{
+        padding: 20px 0px;
+    }
+    .alert p{
+        font-size: 16px;
+    }
+    /* ==========================
+        ** Success Start **
+    ============================= */
+    .success{
+        padding: 35px 0px;
+    }
+    .success-inner{
+        padding: 10px 0px 30px;
+    }
+    .success-inner h2{
+        width: 95%;
+        font-size: 30px;
+        line-height: 1.3em;
+        margin: 0px 0px 10px 0px;
+    }
+    .success-inner p{
+        width: 90%;
+        margin: 0px 0px 10px 0px;
+        font-size: 13px;
+    }
+    .success-inner .btn-info{
+        font-size: 13px;
+        margin: 5px 0px 0px;
+    }
+    .success-item h2{
+        font-size: 30px;
+        line-height: 1.3em;
+        margin: 0px 0px 10px 0px;
+    }
+    .success-item p{
+        width: 80%;
+        margin: 0px 0px 10px 0px;
+        font-size: 16px;
+        line-height: 1.3em;
+    }
+    /* ==========================
+        ** Services Start **
+    ============================= */
+    .services{
+        padding: 35px 0px;
+    }
+    .service-title{
+        padding: 10px 0px 30px;
+    }
+    .service-title h1{
+        font-size: 30px;
+        margin: 0px 0px 10px 0px;
+    }
+    .service-title p{
+        width: 100%;
+        font-size: 13px;
+        margin: 0px 0px 10px 0px;
+    }
+    .service-box{
+        padding: 0px;
+    }
+    .service-box h4{
+        margin: 20px 0px 10px 0px;
+    }
+    .service-box .img-fluid{
+        margin: 0px 0px 10px 0px;
+    }
+    .service-box p{
+        width: 95%;
+        font-size: 13px;
+        margin: 0px 0px 10px 0px;
+    }
+    .service-box .success-btn{
+        font-size: 13px;
+    }
+    /* ==========================
+        ** About Start **
+    ============================= */
+    .about-us{
+        padding: 35px 0px;
+        margin: 0px 0px;
+    }
+    .about-titile{
+        padding: 20px 0px 10px;
+    }
+    .about-titile h2{
+        width: 100%;
+        font-size: 30px;
+    }
+    .about-us p{
+        font-size: 13px;
+    }
+    /* ==========================
+        ** Video Start **
+    ============================= */
+    .video{
+        padding: 35px 0px;
+    }
+    .video-inner{
+        padding: 10px 0px;
+    }
+    .video-inner .play-button{
+        margin: 0px 0px 10px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+    .video-inner h2{
+        font-size: 25px;
+        margin: 0px 0px 10px 0px;
+    }
+    .video-inner p{
+        width: 95%;
+        font-size: 13px;
+    }
+    /* ==========================
+        ** Testimonials Start **
+    ============================= */
+    .testimonial{
+        padding: 35px 0px;
+    }
+    .testimonial-titile{
+        padding: 0px 0px 30px;
+    }
+    .testimonial-titile h1{
+        font-size: 24px;
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonial-titile p{
+        width: 95%;
+        font-size: 13px;
+    }
+    .testimonial-box{
+        padding: 20px 20px;
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonial-box .img-fluid{
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonial-box p{
+        font-size: 13px;
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonial-box .name, .testimonial-box .designation{
+        font-size: 13px;
+    }
+    /* ==========================
+        ** Call-To-Action Start **
+    ============================= */
+    .cta{
+        padding: 20px 0px;
+    }
+    .cta-inner{
+        text-align: center;
+    }
+    .cta-inner h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .cta-inner .btn-info{
+        font-size: 13px;
+        margin: 10px 0px 0px 0px;
+    }
+    /* ==========================
+        ** Footer Start **
+    ============================= */
+    .footer{
+        padding: 35px 0px 20px;
+    }
+    .inner-left{
+        padding: 10px 0px;
+    }
+    .inner-left .img-fluid{
+        width: 70%;
+        margin: 0px 0px 20px;
+    }
+    .inner-left p{
+        width: 100%;
+        font-size: 13px;
+        margin: 0px 0px 20px 0px;
+    }
+    .inner-right{
+        padding: 10px 0px;
+    }
+    .inner-right ul li a{
+        font-size: 13px;
+    }
+    /* ==========================
+        ** Copyright Start **
+    ============================= */
+    .copyright p{
+        font-size: 13px;
+    }
+    /* CSS End Here */
+  
+}
+/* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
@@ -31,9 +298,11 @@
     ============================= */
     .header .navbar .navbar-nav .nav-item .nav-link{
         margin: 0px;
+        font-size: 13px;
     }
     .header .navbar-nav .nav-item .btn-info{
         margin: 10px 0px 0px;
+        font-size: 13px;
     }
     /* ==========================
         ** Banner Start **
@@ -42,15 +311,15 @@
         padding: 35px 0px 0px;
     }
     .banner-inner{
-        padding: 10px 0px 30px;
+        padding: 10px 0px 35px;
     }
     .banner-inner h1{
-        font-size: 25px;
+        font-size: 30px;
         line-height: 1.3em;
         margin: 0px 0px 10px 0px;
     }
     .banner-inner p{
-        width: 100%;
+        width: 90%;
         margin: 0px 0px 10px 0px;
         font-size: 13px;
     }
@@ -59,6 +328,7 @@
         margin: 5px 0px 0px;
     }
     .banner-inner .pop-video{
+        font-size: 10px;
         margin: 10px 0px 0px;
     }
     /* ==========================
@@ -68,7 +338,7 @@
         padding: 20px 0px;
     }
     .alert p{
-        font-size: 13px;
+        font-size: 16px;
     }
     /* ==========================
         ** Success Start **
@@ -79,15 +349,19 @@
     .success-inner{
         padding: 10px 0px 30px;
     }
+    .success-middle{
+        margin: 0px 0px 20px 0px;
+    }
     .success-inner h2{
+        width: 95%;
         font-size: 30px;
         line-height: 1.3em;
         margin: 0px 0px 10px 0px;
     }
     .success-inner p{
-        width: 100%;
+        width: 90%;
         margin: 0px 0px 10px 0px;
-        font-size: 15px;
+        font-size: 13px;
     }
     .success-inner .btn-info{
         font-size: 13px;
@@ -99,7 +373,7 @@
         margin: 0px 0px 10px 0px;
     }
     .success-item p{
-        width: 100%;
+        width: 80%;
         margin: 0px 0px 10px 0px;
         font-size: 16px;
         line-height: 1.3em;
@@ -114,12 +388,12 @@
         padding: 10px 0px 30px;
     }
     .service-title h1{
-        font-size: 25px;
+        font-size: 30px;
         margin: 0px 0px 10px 0px;
     }
     .service-title p{
         width: 100%;
-        font-size: 15px;
+        font-size: 13px;
         margin: 0px 0px 10px 0px;
     }
     .service-box{
@@ -151,11 +425,10 @@
     }
     .about-titile h2{
         width: 100%;
-        font-size: 25px;
+        font-size: 30px;
     }
     .about-us p{
         font-size: 13px;
-        margin: 0px 0px 10px 0px !important;
     }
     /* ==========================
         ** Video Start **
@@ -174,7 +447,7 @@
         font-size: 18px;
     }
     .video-inner h2{
-        font-size: 20px;
+        font-size: 25px;
         margin: 0px 0px 10px 0px;
     }
     .video-inner p{
@@ -206,7 +479,7 @@
         margin: 0px 0px 10px 0px;
     }
     .testimonial-box p{
-        font-size: 16px;
+        font-size: 13px;
         margin: 0px 0px 10px 0px;
     }
     .testimonial-box .name, .testimonial-box .designation{
@@ -223,7 +496,7 @@
     }
     .cta-inner h1{
         text-align: center;
-        font-size: 28px;
+        font-size: 30px;
     }
     .cta-inner .btn-info{
         font-size: 13px;
@@ -239,6 +512,7 @@
         padding: 10px 0px;
     }
     .inner-left .img-fluid{
+        width: 70%;
         margin: 0px 0px 20px;
     }
     .inner-left p{
@@ -256,8 +530,7 @@
         ** Copyright Start **
     ============================= */
     .copyright p{
-        font-size: 10px;
-        line-height: 24px;
+        font-size: 13px;
     }
     /* CSS End Here */
     
@@ -296,41 +569,44 @@
     ============================= */
     .header .navbar .navbar-nav .nav-item .nav-link{
         margin: 0px;
+        font-size: 15px;
     }
     .header .navbar-nav .nav-item .btn-info{
         margin: 10px 0px 0px;
+        font-size: 13px;
     }
     /* ==========================
         ** Banner Start **
     ============================= */
     .banner{
-        padding: 35px 0px 0px;
+        padding: 40px 0px 0px;
     }
     .banner-inner{
-        padding: 10px 0px 30px;
+        padding: 10px 0px 40px;
     }
     .banner-inner h1{
-        font-size: 25px;
+        font-size: 40px;
         line-height: 1.3em;
         margin: 0px 0px 10px 0px;
     }
     .banner-inner p{
-        width: 100%;
+        width: 90%;
         margin: 0px 0px 10px 0px;
-        font-size: 16px;
+        font-size: 15px;
     }
     .banner-inner .btn-info{
         font-size: 13px;
         margin: 5px 0px 0px;
     }
     .banner-inner .pop-video{
+        font-size: 10px;
         margin: 10px 0px 0px;
     }
     /* ==========================
         ** Alert Start **
     ============================= */
     .alert{
-        padding: 20px 0px;
+        padding: 30px 0px;
     }
     .alert p{
         font-size: 15px;
@@ -339,20 +615,24 @@
         ** Success Start **
     ============================= */
     .success{
-        padding: 35px 0px;
+        padding: 40px 0px;
     }
     .success-inner{
-        padding: 10px 0px 30px;
+        padding: 10px 0px 40px;
+    }
+    .success-middle{
+        margin: 0px 0px 20px 0px;
     }
     .success-inner h2{
-        font-size: 30px;
+        width: 80%;
+        font-size: 40px;
         line-height: 1.3em;
         margin: 0px 0px 10px 0px;
     }
     .success-inner p{
-        width: 100%;
+        width: 70%;
         margin: 0px 0px 10px 0px;
-        font-size: 16px;
+        font-size: 15px;
     }
     .success-inner .btn-info{
         font-size: 13px;
@@ -364,7 +644,7 @@
         margin: 0px 0px 10px 0px;
     }
     .success-item p{
-        width: 100%;
+        width: 60%;
         margin: 0px 0px 10px 0px;
         font-size: 16px;
         line-height: 1.3em;
@@ -373,61 +653,59 @@
         ** Services Start **
     ============================= */
     .services{
-        padding: 35px 0px;
+        padding: 40px 0px;
     }
     .service-title{
-        padding: 10px 0px 30px;
+        padding: 10px 0px 40px;
     }
     .service-title h1{
-        font-size: 25px;
-        margin: 0px 0px 10px 0px;
+        font-size: 40px;
+        margin: 0px 0px 15px 0px;
     }
     .service-title p{
         width: 100%;
         font-size: 15px;
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 15px 0px;
     }
     .service-box{
         padding: 0px;
     }
     .service-box h4{
-        margin: 20px 0px 10px 0px;
+        margin: 20px 0px 15px 0px;
     }
     .service-box .img-fluid{
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 15px 0px;
     }
     .service-box p{
-        width: 70%;
-        font-size: 16px;
-        margin: 0px 0px 10px 0px;
+        width: 95%;
+        font-size: 15px;
+        margin: 0px 0px 15px 0px;
     }
     .service-box .success-btn{
-        font-size: 13px;
+        font-size: 15px;
     }
     /* ==========================
         ** About Start **
     ============================= */
     .about-us{
-        padding: 35px 0px;
+        padding: 40px 0px;
         margin: 0px 0px;
     }
     .about-titile{
         padding: 20px 0px 10px;
     }
     .about-titile h2{
-        width: 100%;
-        font-size: 24px;
+        width: 95%;
+        font-size: 40px;
     }
     .about-us p{
-        width: 90%;
-        font-size: 15px;
-        margin: 0px 0px 10px 0px !important;
+        font-size: 18px;
     }
     /* ==========================
         ** Video Start **
     ============================= */
     .video{
-        padding: 35px 0px;
+        padding: 40px 0px;
     }
     .video-inner{
         padding: 10px 0px;
@@ -440,29 +718,29 @@
         font-size: 18px;
     }
     .video-inner h2{
-        font-size: 25px;
+        font-size: 30px;
         margin: 0px 0px 10px 0px;
     }
     .video-inner p{
-        width: 100%;
-        font-size: 16px;
+        width: 80%;
+        font-size: 15px;
     }
     /* ==========================
         ** Testimonials Start **
     ============================= */
     .testimonial{
-        padding: 35px 0px;
+        padding: 40px 0px;
     }
     .testimonial-titile{
-        padding: 0px 0px 30px;
+        padding: 0px 0px 40px;
     }
     .testimonial-titile h1{
-        font-size: 25px;
+        font-size: 35px;
         margin: 0px 0px 10px 0px;
     }
     .testimonial-titile p{
-        width: 100%;
-        font-size: 16px;
+        width: 90%;
+        font-size: 15px;
     }
     .testimonial-box{
         padding: 20px 20px;
@@ -472,11 +750,11 @@
         margin: 0px 0px 10px 0px;
     }
     .testimonial-box p{
-        font-size: 16px;
+        font-size: 19px;
         margin: 0px 0px 10px 0px;
     }
     .testimonial-box .name, .testimonial-box .designation{
-        font-size: 13px;
+        font-size: 19px;
     }
     /* ==========================
         ** Call-To-Action Start **
@@ -489,7 +767,7 @@
     }
     .cta-inner h1{
         text-align: center;
-        font-size: 35px;
+        font-size: 40px;
     }
     .cta-inner .btn-info{
         font-size: 13px;
@@ -499,31 +777,31 @@
         ** Footer Start **
     ============================= */
     .footer{
-        padding: 35px 0px 20px;
+        padding: 40px 0px 20px;
     }
     .inner-left{
         padding: 10px 0px;
     }
     .inner-left .img-fluid{
+        width: 70%;
         margin: 0px 0px 20px;
     }
     .inner-left p{
-        width: 100%;
-        font-size: 16px;
+        width: 95%;
+        font-size: 15px;
         margin: 0px 0px 20px 0px;
     }
     .inner-right{
         padding: 10px 0px;
     }
     .inner-right ul li a{
-        font-size: 13px;
+        font-size: 15px;
     }
     /* ==========================
         ** Copyright Start **
     ============================= */
     .copyright p{
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 15px;
     }
     /* CSS End Here */
     
@@ -538,85 +816,171 @@
   
     /* CSS Start Here */
     /* ==========================
+        ** Navber Toggler Start **
+    ============================= */
+    .header .navbar-toggler{
+        border: 1px solid #473BF0;
+        border-radius: 3px;
+    }
+    .header .navbar-toggler:focus{
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 10px #473BF0;
+        background: #473BF0;
+    }
+    .header .navbar-toggler .fa{
+        color: #473BF0;
+        font-size: 30px;
+    }
+    .header .navbar-toggler:focus .fa{
+        color: #fff;
+    }
+    /* ==========================
+        ** Header Menu Start **
+    ============================= */
+    .header .navbar .navbar-nav .nav-item .nav-link{
+        margin: 0px;
+        font-size: 15px;
+    }
+    .header .navbar-nav .nav-item .btn-info{
+        margin: 10px 0px 0px;
+        font-size: 15px;
+    }
+    /* ==========================
         ** Banner Start **
     ============================= */
+    .banner{
+        padding: 50px 0px 0px;
+    }
+    .banner-inner{
+        padding: 20px 0px 50px;
+    }
     .banner-inner h1{
-        font-size: 30px;
+        font-size: 55px;
         line-height: 1.3em;
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 20px 0px;
     }
     .banner-inner p{
-        width: 90%;
-        margin: 0px 0px 10px 0px;
-        font-size: 16px;
+        width: 85%;
+        margin: 0px 0px 20px 0px;
+        font-size: 19px;
     }
     .banner-inner .btn-info{
-        font-size: 13px;
+        font-size: 15px;
         margin: 5px 0px 0px;
     }
     .banner-inner .pop-video{
-        margin: 10px 0px 0px;
+        font-size: 13px;
+        margin: 20px 0px 0px;
+    }
+    /* ==========================
+        ** Alert Start **
+    ============================= */
+    .alert{
+        padding: 30px 0px;
+    }
+    .alert p{
+        font-size: 19px;
     }
     /* ==========================
         ** Success Start **
     ============================= */
+    .success{
+        padding: 50px 0px;
+    }
     .success-inner{
-        padding: 80px 0px 0px;
+        padding: 20px 0px 50px;
+    }
+    .success-middle{
+        margin: 0px 0px 30px 0px;
     }
     .success-inner h2{
-        font-size: 30px;
+        width: 80%;
+        font-size: 50px;
         line-height: 1.3em;
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 20px 0px;
     }
     .success-inner p{
-        width: 100%;
-        margin: 0px 0px 10px 0px;
-        font-size: 16px;
+        width: 70%;
+        margin: 0px 0px 20px 0px;
+        font-size: 19px;
     }
     .success-inner .btn-info{
-        font-size: 13px;
+        font-size: 15px;
         margin: 5px 0px 0px;
     }
     .success-item h2{
-        font-size: 30px;
+        font-size: 40px;
         line-height: 1.3em;
-        margin: 30px 0px 10px 0px;
+        margin: 0px 0px 20px 0px;
     }
     .success-item p{
-        width: 100%;
-        margin: 0px 0px 10px 0px;
-        font-size: 16px;
+        width: 70%;
+        margin: 0px 0px 20px 0px;
+        font-size: 19px;
         line-height: 1.3em;
     }
     /* ==========================
         ** Services Start **
     ============================= */
+    .services{
+        padding: 50px 0px;
+    }
+    .service-title{
+        padding: 20px 0px 50px;
+    }
+    .service-title h1{
+        font-size: 50px;
+        margin: 0px 0px 20px 0px;
+    }
     .service-title p{
         width: 100%;
         font-size: 19px;
+        margin: 0px 0px 20px 0px;
+    }
+    .service-box{
+        padding: 0px;
+    }
+    .service-box h4{
+        font-size: 40px;
+        margin: 20px 0px 20px 0px;
+    }
+    .service-box .img-fluid{
+        margin: 0px 0px 20px 0px;
     }
     .service-box p{
-        font-size: 16px;
+        width: 80%;
+        font-size: 19px;
+        margin: 0px 0px 20px 0px;
+    }
+    .service-box .success-btn{
+        font-size: 19px;
     }
     /* ==========================
         ** About Start **
     ============================= */
+    .about-us{
+        padding: 5% 0px;
+        margin: 0px 0px;
+    }
+    .about-titile{
+        padding: 20px 0px 10px;
+    }
     .about-titile h2{
-        width: 100%;
-        font-size: 24px;
+        width: 90%;
+        font-size: 50px;
     }
     .about-us p{
-        width: 90%;
-        font-size: 15px;
+        font-size: 22px;
     }
     /* ==========================
         ** Video Start **
     ============================= */
     .video{
-        padding: 35px 0px;
+        padding: 50px 0px;
     }
     .video-inner{
-        padding: 25px 0px;
+        padding: 20px 0px;
     }
     .video-inner .play-button{
         margin: 0px 0px 10px;
@@ -626,43 +990,43 @@
         font-size: 18px;
     }
     .video-inner h2{
-        font-size: 25px;
+        font-size: 50px;
         margin: 0px 0px 10px 0px;
     }
     .video-inner p{
-        width: 100%;
-        font-size: 16px;
+        width: 80%;
+        font-size: 19px;
     }
     /* ==========================
         ** Testimonials Start **
     ============================= */
     .testimonial{
-        padding: 35px 0px;
+        padding: 50px 0px;
     }
     .testimonial-titile{
-        padding: 0px 0px 30px;
+        padding: 0px 0px 50px;
     }
     .testimonial-titile h1{
-        font-size: 25px;
+        font-size: 50px;
         margin: 0px 0px 10px 0px;
     }
     .testimonial-titile p{
-        width: 100%;
-        font-size: 16px;
+        width: 90%;
+        font-size: 19px;
     }
     .testimonial-box{
         padding: 20px 20px;
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 20px 0px;
     }
     .testimonial-box .img-fluid{
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 20px 0px;
     }
     .testimonial-box p{
-        font-size: 16px;
-        margin: 0px 0px 10px 0px;
+        font-size: 22px;
+        margin: 0px 0px 20px 0px;
     }
     .testimonial-box .name, .testimonial-box .designation{
-        font-size: 13px;
+        font-size: 22px;
     }
     /* ==========================
         ** Call-To-Action Start **
@@ -673,35 +1037,45 @@
     .cta-inner{
         text-align: center;
     }
+    .cta-inner h1{
+        font-size: 30px;
+    }
+    .cta-inner .btn-info{
+        font-size: 13px;
+        margin: 10px 0px 0px 0px;
+    }
     /* ==========================
         ** Footer Start **
     ============================= */
     .footer{
-        padding: 35px 0px 20px;
+        padding: 50px 0px 30px;
     }
     .inner-left{
         padding: 10px 0px;
     }
     .inner-left .img-fluid{
+        width: 80%;
         margin: 0px 0px 20px;
     }
     .inner-left p{
-        width: 100%;
-        font-size: 16px;
+        width: 90%;
+        font-size: 19px;
         margin: 0px 0px 20px 0px;
+    }
+    .inner-right p{
+        font-size: 19px;
     }
     .inner-right{
         padding: 10px 0px;
     }
     .inner-right ul li a{
-        font-size: 13px;
+        font-size: 19px;
     }
     /* ==========================
         ** Copyright Start **
     ============================= */
     .copyright p{
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 19px;
     }
     /* CSS End Here */
   
