@@ -1,0 +1,708 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    /* CSS Start Here */
+    /* ==========================
+        ** Navber Toggler Start **
+    ============================= */
+    .header .navbar-toggler{
+        border: 1px solid #473BF0;
+        border-radius: 3px;
+    }
+    .header .navbar-toggler:focus{
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 10px #473BF0;
+        background: #473BF0;
+    }
+    .header .navbar-toggler .fa{
+        color: #473BF0;
+        font-size: 30px;
+    }
+    .header .navbar-toggler:focus .fa{
+        color: #fff;
+    }
+    /* ==========================
+        ** Header Menu Start **
+    ============================= */
+    .header .navbar .navbar-nav .nav-item .nav-link{
+        margin: 0px;
+    }
+    .header .navbar-nav .nav-item .btn-info{
+        margin: 10px 0px 0px;
+    }
+    /* ==========================
+        ** Banner Start **
+    ============================= */
+    .banner{
+        padding: 35px 0px 0px;
+    }
+    .banner-inner{
+        padding: 10px 0px 30px;
+    }
+    .banner-inner h1{
+        font-size: 25px;
+        line-height: 1.3em;
+        margin: 0px 0px 10px 0px;
+    }
+    .banner-inner p{
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+        font-size: 13px;
+    }
+    .banner-inner .btn-info{
+        font-size: 13px;
+        margin: 5px 0px 0px;
+    }
+    .banner-inner .pop-video{
+        margin: 10px 0px 0px;
+    }
+    /* ==========================
+        ** Alert Start **
+    ============================= */
+    .alert{
+        padding: 20px 0px;
+    }
+    .alert p{
+        font-size: 13px;
+    }
+    /* ==========================
+        ** Success Start **
+    ============================= */
+    .success{
+        padding: 35px 0px;
+    }
+    .success-inner{
+        padding: 10px 0px 30px;
+    }
+    .success-inner h2{
+        font-size: 30px;
+        line-height: 1.3em;
+        margin: 0px 0px 10px 0px;
+    }
+    .success-inner p{
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+        font-size: 15px;
+    }
+    .success-inner .btn-info{
+        font-size: 13px;
+        margin: 5px 0px 0px;
+    }
+    .success-item h2{
+        font-size: 30px;
+        line-height: 1.3em;
+        margin: 0px 0px 10px 0px;
+    }
+    .success-item p{
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+        font-size: 16px;
+        line-height: 1.3em;
+    }
+    /* ==========================
+        ** Services Start **
+    ============================= */
+    .services{
+        padding: 35px 0px;
+    }
+    .service-title{
+        padding: 10px 0px 30px;
+    }
+    .service-title h1{
+        font-size: 25px;
+        margin: 0px 0px 10px 0px;
+    }
+    .service-title p{
+        width: 100%;
+        font-size: 15px;
+        margin: 0px 0px 10px 0px;
+    }
+    .service-box{
+        padding: 0px;
+    }
+    .service-box h4{
+        margin: 20px 0px 10px 0px;
+    }
+    .service-box .img-fluid{
+        margin: 0px 0px 10px 0px;
+    }
+    .service-box p{
+        width: 95%;
+        font-size: 13px;
+        margin: 0px 0px 10px 0px;
+    }
+    .service-box .success-btn{
+        font-size: 13px;
+    }
+    /* ==========================
+        ** About Start **
+    ============================= */
+    .about-us{
+        padding: 35px 0px;
+        margin: 0px 0px;
+    }
+    .about-titile{
+        padding: 20px 0px 10px;
+    }
+    .about-titile h2{
+        width: 100%;
+        font-size: 25px;
+    }
+    .about-us p{
+        font-size: 13px;
+        margin: 0px 0px 10px 0px !important;
+    }
+    /* ==========================
+        ** Video Start **
+    ============================= */
+    .video{
+        padding: 35px 0px;
+    }
+    .video-inner{
+        padding: 10px 0px;
+    }
+    .video-inner .play-button{
+        margin: 0px 0px 10px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+    .video-inner h2{
+        font-size: 20px;
+        margin: 0px 0px 10px 0px;
+    }
+    .video-inner p{
+        width: 95%;
+        font-size: 13px;
+    }
+    /* ==========================
+        ** Testimonials Start **
+    ============================= */
+    .testimonial{
+        padding: 35px 0px;
+    }
+    .testimonial-titile{
+        padding: 0px 0px 30px;
+    }
+    .testimonial-titile h1{
+        font-size: 24px;
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonial-titile p{
+        width: 95%;
+        font-size: 13px;
+    }
+    .testimonial-box{
+        padding: 20px 20px;
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonial-box .img-fluid{
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonial-box p{
+        font-size: 16px;
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonial-box .name, .testimonial-box .designation{
+        font-size: 13px;
+    }
+    /* ==========================
+        ** Call-To-Action Start **
+    ============================= */
+    .cta{
+        padding: 20px 0px;
+    }
+    .cta-inner{
+        text-align: center;
+    }
+    .cta-inner h1{
+        text-align: center;
+        font-size: 28px;
+    }
+    .cta-inner .btn-info{
+        font-size: 13px;
+        margin: 10px 0px 0px 0px;
+    }
+    /* ==========================
+        ** Footer Start **
+    ============================= */
+    .footer{
+        padding: 35px 0px 20px;
+    }
+    .inner-left{
+        padding: 10px 0px;
+    }
+    .inner-left .img-fluid{
+        margin: 0px 0px 20px;
+    }
+    .inner-left p{
+        width: 100%;
+        font-size: 13px;
+        margin: 0px 0px 20px 0px;
+    }
+    .inner-right{
+        padding: 10px 0px;
+    }
+    .inner-right ul li a{
+        font-size: 13px;
+    }
+    /* ==========================
+        ** Copyright Start **
+    ============================= */
+    .copyright p{
+        font-size: 10px;
+        line-height: 24px;
+    }
+    /* CSS End Here */
+    
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    /* CSS Start Here */
+    /* ==========================
+        ** Navber Toggler Start **
+    ============================= */
+    .header .navbar-toggler{
+        border: 1px solid #473BF0;
+        border-radius: 3px;
+    }
+    .header .navbar-toggler:focus{
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 10px #473BF0;
+        background: #473BF0;
+    }
+    .header .navbar-toggler .fa{
+        color: #473BF0;
+        font-size: 30px;
+    }
+    .header .navbar-toggler:focus .fa{
+        color: #fff;
+    }
+    /* ==========================
+        ** Header Menu Start **
+    ============================= */
+    .header .navbar .navbar-nav .nav-item .nav-link{
+        margin: 0px;
+    }
+    .header .navbar-nav .nav-item .btn-info{
+        margin: 10px 0px 0px;
+    }
+    /* ==========================
+        ** Banner Start **
+    ============================= */
+    .banner{
+        padding: 35px 0px 0px;
+    }
+    .banner-inner{
+        padding: 10px 0px 30px;
+    }
+    .banner-inner h1{
+        font-size: 25px;
+        line-height: 1.3em;
+        margin: 0px 0px 10px 0px;
+    }
+    .banner-inner p{
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+        font-size: 16px;
+    }
+    .banner-inner .btn-info{
+        font-size: 13px;
+        margin: 5px 0px 0px;
+    }
+    .banner-inner .pop-video{
+        margin: 10px 0px 0px;
+    }
+    /* ==========================
+        ** Alert Start **
+    ============================= */
+    .alert{
+        padding: 20px 0px;
+    }
+    .alert p{
+        font-size: 15px;
+    }
+    /* ==========================
+        ** Success Start **
+    ============================= */
+    .success{
+        padding: 35px 0px;
+    }
+    .success-inner{
+        padding: 10px 0px 30px;
+    }
+    .success-inner h2{
+        font-size: 30px;
+        line-height: 1.3em;
+        margin: 0px 0px 10px 0px;
+    }
+    .success-inner p{
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+        font-size: 16px;
+    }
+    .success-inner .btn-info{
+        font-size: 13px;
+        margin: 5px 0px 0px;
+    }
+    .success-item h2{
+        font-size: 30px;
+        line-height: 1.3em;
+        margin: 0px 0px 10px 0px;
+    }
+    .success-item p{
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+        font-size: 16px;
+        line-height: 1.3em;
+    }
+    /* ==========================
+        ** Services Start **
+    ============================= */
+    .services{
+        padding: 35px 0px;
+    }
+    .service-title{
+        padding: 10px 0px 30px;
+    }
+    .service-title h1{
+        font-size: 25px;
+        margin: 0px 0px 10px 0px;
+    }
+    .service-title p{
+        width: 100%;
+        font-size: 15px;
+        margin: 0px 0px 10px 0px;
+    }
+    .service-box{
+        padding: 0px;
+    }
+    .service-box h4{
+        margin: 20px 0px 10px 0px;
+    }
+    .service-box .img-fluid{
+        margin: 0px 0px 10px 0px;
+    }
+    .service-box p{
+        width: 70%;
+        font-size: 16px;
+        margin: 0px 0px 10px 0px;
+    }
+    .service-box .success-btn{
+        font-size: 13px;
+    }
+    /* ==========================
+        ** About Start **
+    ============================= */
+    .about-us{
+        padding: 35px 0px;
+        margin: 0px 0px;
+    }
+    .about-titile{
+        padding: 20px 0px 10px;
+    }
+    .about-titile h2{
+        width: 100%;
+        font-size: 24px;
+    }
+    .about-us p{
+        width: 90%;
+        font-size: 15px;
+        margin: 0px 0px 10px 0px !important;
+    }
+    /* ==========================
+        ** Video Start **
+    ============================= */
+    .video{
+        padding: 35px 0px;
+    }
+    .video-inner{
+        padding: 10px 0px;
+    }
+    .video-inner .play-button{
+        margin: 0px 0px 10px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+    .video-inner h2{
+        font-size: 25px;
+        margin: 0px 0px 10px 0px;
+    }
+    .video-inner p{
+        width: 100%;
+        font-size: 16px;
+    }
+    /* ==========================
+        ** Testimonials Start **
+    ============================= */
+    .testimonial{
+        padding: 35px 0px;
+    }
+    .testimonial-titile{
+        padding: 0px 0px 30px;
+    }
+    .testimonial-titile h1{
+        font-size: 25px;
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonial-titile p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .testimonial-box{
+        padding: 20px 20px;
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonial-box .img-fluid{
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonial-box p{
+        font-size: 16px;
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonial-box .name, .testimonial-box .designation{
+        font-size: 13px;
+    }
+    /* ==========================
+        ** Call-To-Action Start **
+    ============================= */
+    .cta{
+        padding: 20px 0px;
+    }
+    .cta-inner{
+        text-align: center;
+    }
+    .cta-inner h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .cta-inner .btn-info{
+        font-size: 13px;
+        margin: 10px 0px 0px 0px;
+    }
+    /* ==========================
+        ** Footer Start **
+    ============================= */
+    .footer{
+        padding: 35px 0px 20px;
+    }
+    .inner-left{
+        padding: 10px 0px;
+    }
+    .inner-left .img-fluid{
+        margin: 0px 0px 20px;
+    }
+    .inner-left p{
+        width: 100%;
+        font-size: 16px;
+        margin: 0px 0px 20px 0px;
+    }
+    .inner-right{
+        padding: 10px 0px;
+    }
+    .inner-right ul li a{
+        font-size: 13px;
+    }
+    /* ==========================
+        ** Copyright Start **
+    ============================= */
+    .copyright p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /* CSS End Here */
+    
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    /* CSS Start Here */
+    /* ==========================
+        ** Banner Start **
+    ============================= */
+    .banner-inner h1{
+        font-size: 30px;
+        line-height: 1.3em;
+        margin: 0px 0px 10px 0px;
+    }
+    .banner-inner p{
+        width: 90%;
+        margin: 0px 0px 10px 0px;
+        font-size: 16px;
+    }
+    .banner-inner .btn-info{
+        font-size: 13px;
+        margin: 5px 0px 0px;
+    }
+    .banner-inner .pop-video{
+        margin: 10px 0px 0px;
+    }
+    /* ==========================
+        ** Success Start **
+    ============================= */
+    .success-inner{
+        padding: 80px 0px 0px;
+    }
+    .success-inner h2{
+        font-size: 30px;
+        line-height: 1.3em;
+        margin: 0px 0px 10px 0px;
+    }
+    .success-inner p{
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+        font-size: 16px;
+    }
+    .success-inner .btn-info{
+        font-size: 13px;
+        margin: 5px 0px 0px;
+    }
+    .success-item h2{
+        font-size: 30px;
+        line-height: 1.3em;
+        margin: 30px 0px 10px 0px;
+    }
+    .success-item p{
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+        font-size: 16px;
+        line-height: 1.3em;
+    }
+    /* ==========================
+        ** Services Start **
+    ============================= */
+    .service-title p{
+        width: 100%;
+        font-size: 19px;
+    }
+    .service-box p{
+        font-size: 16px;
+    }
+    /* ==========================
+        ** About Start **
+    ============================= */
+    .about-titile h2{
+        width: 100%;
+        font-size: 24px;
+    }
+    .about-us p{
+        width: 90%;
+        font-size: 15px;
+    }
+    /* ==========================
+        ** Video Start **
+    ============================= */
+    .video{
+        padding: 35px 0px;
+    }
+    .video-inner{
+        padding: 25px 0px;
+    }
+    .video-inner .play-button{
+        margin: 0px 0px 10px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+    .video-inner h2{
+        font-size: 25px;
+        margin: 0px 0px 10px 0px;
+    }
+    .video-inner p{
+        width: 100%;
+        font-size: 16px;
+    }
+    /* ==========================
+        ** Testimonials Start **
+    ============================= */
+    .testimonial{
+        padding: 35px 0px;
+    }
+    .testimonial-titile{
+        padding: 0px 0px 30px;
+    }
+    .testimonial-titile h1{
+        font-size: 25px;
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonial-titile p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .testimonial-box{
+        padding: 20px 20px;
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonial-box .img-fluid{
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonial-box p{
+        font-size: 16px;
+        margin: 0px 0px 10px 0px;
+    }
+    .testimonial-box .name, .testimonial-box .designation{
+        font-size: 13px;
+    }
+    /* ==========================
+        ** Call-To-Action Start **
+    ============================= */
+    .cta{
+        padding: 20px 0px;
+    }
+    .cta-inner{
+        text-align: center;
+    }
+    /* ==========================
+        ** Footer Start **
+    ============================= */
+    .footer{
+        padding: 35px 0px 20px;
+    }
+    .inner-left{
+        padding: 10px 0px;
+    }
+    .inner-left .img-fluid{
+        margin: 0px 0px 20px;
+    }
+    .inner-left p{
+        width: 100%;
+        font-size: 16px;
+        margin: 0px 0px 20px 0px;
+    }
+    .inner-right{
+        padding: 10px 0px;
+    }
+    .inner-right ul li a{
+        font-size: 13px;
+    }
+    /* ==========================
+        ** Copyright Start **
+    ============================= */
+    .copyright p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    /* CSS End Here */
+  
+}
